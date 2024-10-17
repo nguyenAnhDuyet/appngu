@@ -1,0 +1,170 @@
+[
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.7\\com.example.login_project.app-debug-32:\\layout_activity_home.xml.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.7\\com.example.login_project.app-main-34:\\layout\\activity_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.7\\com.example.login_project.app-debug-32:\\drawable_user.gif.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.7\\com.example.login_project.app-main-34:\\drawable\\user.gif"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.7\\com.example.login_project.app-debug-32:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.7\\com.example.login_project.app-main-34:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.7\\com.example.login_project.app-debug-32:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.7\\com.example.login_project.app-main-34:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.7\\com.example.login_project.app-debug-32:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.7\\com.example.login_project.app-main-34:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.7\\com.example.login_project.app-debug-32:\\layout_activity_user_detail.xml.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.7\\com.example.login_project.app-main-34:\\layout\\activity_user_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.7\\com.example.login_project.app-debug-32:\\drawable_card_background.xml.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.7\\com.example.login_project.app-main-34:\\drawable\\card_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.7\\com.example.login_project.app-debug-32:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.7\\com.example.login_project.app-main-34:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.7\\com.example.login_project.app-debug-32:\\layout_activity_login.xml.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.7\\com.example.login_project.app-main-34:\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.7\\com.example.login_project.app-debug-32:\\layout_activity_trending_songs.xml.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.7\\com.example.login_project.app-main-34:\\layout\\activity_trending_songs.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.7\\com.example.login_project.app-debug-32:\\layout_item_song.xml.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.7\\com.example.login_project.app-main-34:\\layout\\item_song.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.7\\com.example.login_project.app-debug-32:\\layout_activity_forgot_password.xml.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.7\\com.example.login_project.app-main-34:\\layout\\activity_forgot_password.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.7\\com.example.login_project.app-debug-32:\\drawable_background_gradient.xml.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.7\\com.example.login_project.app-main-34:\\drawable\\background_gradient.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.7\\com.example.login_project.app-debug-32:\\drawable_logo.png.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.7\\com.example.login_project.app-main-34:\\drawable\\logo.png"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.7\\com.example.login_project.app-debug-32:\\layout_activity_music_player.xml.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.7\\com.example.login_project.app-main-34:\\layout\\activity_music_player.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.7\\com.example.login_project.app-debug-32:\\layout_activity_admin.xml.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.7\\com.example.login_project.app-main-34:\\layout\\activity_admin.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.7\\com.example.login_project.app-debug-32:\\layout_activity_otp.xml.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.7\\com.example.login_project.app-main-34:\\layout\\activity_otp.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.7\\com.example.login_project.app-debug-32:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.7\\com.example.login_project.app-main-34:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.7\\com.example.login_project.app-debug-32:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.7\\com.example.login_project.app-main-34:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.7\\com.example.login_project.app-debug-32:\\drawable_usermanage.png.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.7\\com.example.login_project.app-main-34:\\drawable\\usermanage.png"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.7\\com.example.login_project.app-debug-32:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.7\\com.example.login_project.app-main-34:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.7\\com.example.login_project.app-debug-32:\\layout_activity_album_detail.xml.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.7\\com.example.login_project.app-main-34:\\layout\\activity_album_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.7\\com.example.login_project.app-debug-32:\\layout_activity_reset_password.xml.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.7\\com.example.login_project.app-main-34:\\layout\\activity_reset_password.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.7\\com.example.login_project.app-debug-32:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.7\\com.example.login_project.app-main-34:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.7\\com.example.login_project.app-debug-32:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.7\\com.example.login_project.app-main-34:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.7\\com.example.login_project.app-debug-32:\\drawable_logo2.png.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.7\\com.example.login_project.app-main-34:\\drawable\\logo2.png"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.7\\com.example.login_project.app-debug-32:\\layout_activity_user_list.xml.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.7\\com.example.login_project.app-main-34:\\layout\\activity_user_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.7\\com.example.login_project.app-debug-32:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.7\\com.example.login_project.app-main-34:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.7\\com.example.login_project.app-debug-32:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.7\\com.example.login_project.app-main-34:\\drawable\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.7\\com.example.login_project.app-debug-32:\\drawable_chart.png.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.7\\com.example.login_project.app-main-34:\\drawable\\chart.png"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.7\\com.example.login_project.app-debug-32:\\layout_item_album.xml.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.7\\com.example.login_project.app-main-34:\\layout\\item_album.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.7\\com.example.login_project.app-debug-32:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.7\\com.example.login_project.app-main-34:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.7\\com.example.login_project.app-debug-32:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.7\\com.example.login_project.app-main-34:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.7\\com.example.login_project.app-debug-32:\\layout_activity_register.xml.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.7\\com.example.login_project.app-main-34:\\layout\\activity_register.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.7\\com.example.login_project.app-debug-32:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.7\\com.example.login_project.app-main-34:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.7\\com.example.login_project.app-debug-32:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.7\\com.example.login_project.app-main-34:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.7\\com.example.login_project.app-debug-32:\\drawable_logout.png.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.7\\com.example.login_project.app-main-34:\\drawable\\logout.png"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.7\\com.example.login_project.app-debug-32:\\menu_admin_menu.xml.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.7\\com.example.login_project.app-main-34:\\menu\\admin_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.7\\com.example.login_project.app-debug-32:\\layout_item_user.xml.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.7\\com.example.login_project.app-main-34:\\layout\\item_user.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.7\\com.example.login_project.app-debug-32:\\menu_user_menu.xml.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.7\\com.example.login_project.app-main-34:\\menu\\user_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.7\\com.example.login_project.app-debug-32:\\drawable_user1.png.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.7\\com.example.login_project.app-main-34:\\drawable\\user1.png"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.7\\com.example.login_project.app-debug-32:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.7\\com.example.login_project.app-main-34:\\mipmap-hdpi\\ic_launcher.webp"
+    }
+]

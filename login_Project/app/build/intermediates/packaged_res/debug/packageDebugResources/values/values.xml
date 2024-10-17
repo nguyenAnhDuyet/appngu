@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="gender_options">
+        <item>Male</item>
+        <item>Female</item>
+        <item>Other</item>
+    </string-array>
+    <color name="backgroundColor">#F5F5F5</color>
+    <color name="blue">#4267B2</color>
+    <color name="cardBackgroundColor">#FFFFFF</color>
+    <color name="dark_blue">#1A1E34</color>
+    <color name="gray">#595757</color>
+    <color name="light_blue">#7DA1DB</color>
+    <color name="navigationIconColor">#FFFFFF</color>
+    <color name="navigationTextColor">#FFFFFF</color>
+    <color name="pink">#FF4081</color>
+    <color name="primaryTextColor">#212121</color>
+    <color name="red">#ff0033</color>
+    <color name="secondaryTextColor">#757575</color>
+    <color name="white">#FFFFFF</color>
+    <string name="app_name">login_Project</string>
+    <string name="close">Close Menu</string>
+    <string name="open">Open Menu</string>
+    <style name="Base.Theme.Login_Project" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        
+    </style>
+    <style name="Theme.Login_Project" parent="Base.Theme.Login_Project"/>
+</resources>

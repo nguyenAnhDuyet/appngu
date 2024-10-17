@@ -1,0 +1,35 @@
+com.example.login_project.app-emoji2-views-helper-1.3.0-0 C:\Users\ASUS\.gradle\caches\transforms-4\0c59ed46e0f79feee5cb756731e73db0\transformed\emoji2-views-helper-1.3.0\res
+com.example.login_project.app-viewpager2-1.0.0-1 C:\Users\ASUS\.gradle\caches\transforms-4\0ed7b7213ea9dfd41ea195907d21f621\transformed\viewpager2-1.0.0\res
+com.example.login_project.app-appcompat-1.7.0-2 C:\Users\ASUS\.gradle\caches\transforms-4\109608bda3e6ad5a085f83a0c989ed84\transformed\appcompat-1.7.0\res
+com.example.login_project.app-core-ktx-1.13.0-3 C:\Users\ASUS\.gradle\caches\transforms-4\167cdd621efff65a0f33ab478ece2970\transformed\core-ktx-1.13.0\res
+com.example.login_project.app-startup-runtime-1.1.1-4 C:\Users\ASUS\.gradle\caches\transforms-4\1b7242de22623dfcb113c623d6ac1260\transformed\startup-runtime-1.1.1\res
+com.example.login_project.app-lifecycle-livedata-core-2.6.2-5 C:\Users\ASUS\.gradle\caches\transforms-4\1c13e6de7e6da1c1c8b982cc28b1c8b9\transformed\lifecycle-livedata-core-2.6.2\res
+com.example.login_project.app-recyclerview-1.1.0-6 C:\Users\ASUS\.gradle\caches\transforms-4\25978bf4b78df982d6c2934c476dbe4a\transformed\recyclerview-1.1.0\res
+com.example.login_project.app-appcompat-resources-1.7.0-7 C:\Users\ASUS\.gradle\caches\transforms-4\272253465b4bc4cb9cbc0b4e8b5eae4d\transformed\appcompat-resources-1.7.0\res
+com.example.login_project.app-lifecycle-viewmodel-savedstate-2.6.2-8 C:\Users\ASUS\.gradle\caches\transforms-4\2fe04baa94ed1540ef2e922ffc18134d\transformed\lifecycle-viewmodel-savedstate-2.6.2\res
+com.example.login_project.app-fragment-1.5.4-9 C:\Users\ASUS\.gradle\caches\transforms-4\30d5200eb45aafb314f7ba592fc7e7eb\transformed\fragment-1.5.4\res
+com.example.login_project.app-lifecycle-process-2.6.2-10 C:\Users\ASUS\.gradle\caches\transforms-4\4d2dcb012969792567337a6f1425affd\transformed\lifecycle-process-2.6.2\res
+com.example.login_project.app-annotation-experimental-1.4.0-11 C:\Users\ASUS\.gradle\caches\transforms-4\68467112b760b38906a4485d26250f01\transformed\annotation-experimental-1.4.0\res
+com.example.login_project.app-lifecycle-livedata-2.6.2-12 C:\Users\ASUS\.gradle\caches\transforms-4\6c18b4c4597db53d64cb03321e75e551\transformed\lifecycle-livedata-2.6.2\res
+com.example.login_project.app-glide-4.12.0-13 C:\Users\ASUS\.gradle\caches\transforms-4\75604be8411dd0bf1f346086e74c7aad\transformed\glide-4.12.0\res
+com.example.login_project.app-lifecycle-runtime-2.6.2-14 C:\Users\ASUS\.gradle\caches\transforms-4\78447d268be6ee8f38d537883c6ea1cd\transformed\lifecycle-runtime-2.6.2\res
+com.example.login_project.app-core-1.13.0-15 C:\Users\ASUS\.gradle\caches\transforms-4\7ea54026b97bfc7a6cfda1b966b7de28\transformed\core-1.13.0\res
+com.example.login_project.app-coordinatorlayout-1.1.0-16 C:\Users\ASUS\.gradle\caches\transforms-4\8e6fb1077225fc75194ac8f527b87867\transformed\coordinatorlayout-1.1.0\res
+com.example.login_project.app-activity-1.9.2-17 C:\Users\ASUS\.gradle\caches\transforms-4\94dcaf9ed2fc354ecd8eead4a9dc332a\transformed\activity-1.9.2\res
+com.example.login_project.app-lifecycle-viewmodel-2.6.2-18 C:\Users\ASUS\.gradle\caches\transforms-4\a7bb02e1edbecbe5052d3cecfea53490\transformed\lifecycle-viewmodel-2.6.2\res
+com.example.login_project.app-savedstate-1.2.1-19 C:\Users\ASUS\.gradle\caches\transforms-4\ade5d34cc4a009b6a4ce90e22026ff72\transformed\savedstate-1.2.1\res
+com.example.login_project.app-material-1.12.0-20 C:\Users\ASUS\.gradle\caches\transforms-4\c1ce0e1337389e4e759ac83b11eefb0d\transformed\material-1.12.0\res
+com.example.login_project.app-drawerlayout-1.1.1-21 C:\Users\ASUS\.gradle\caches\transforms-4\c29f41e00b36b8a5f03b90bb8f91fced\transformed\drawerlayout-1.1.1\res
+com.example.login_project.app-transition-1.5.0-22 C:\Users\ASUS\.gradle\caches\transforms-4\ca3b690f2b8ce9c7842cf0eb9a7cb3ab\transformed\transition-1.5.0\res
+com.example.login_project.app-core-runtime-2.2.0-23 C:\Users\ASUS\.gradle\caches\transforms-4\d9258155c8ba90205fd14afc6809c166\transformed\core-runtime-2.2.0\res
+com.example.login_project.app-constraintlayout-2.1.4-24 C:\Users\ASUS\.gradle\caches\transforms-4\e72f09cce92c263cad9de59f19f0b0e5\transformed\constraintlayout-2.1.4\res
+com.example.login_project.app-profileinstaller-1.3.1-25 C:\Users\ASUS\.gradle\caches\transforms-4\f90a08fb5758aa6e8d7264c12c91553b\transformed\profileinstaller-1.3.1\res
+com.example.login_project.app-cardview-1.0.0-26 C:\Users\ASUS\.gradle\caches\transforms-4\fc73a787d04e6d96790b2e7624d65f89\transformed\cardview-1.0.0\res
+com.example.login_project.app-emoji2-1.3.0-27 C:\Users\ASUS\.gradle\caches\transforms-4\fd94d11eb27f99e817d431ee4e53a5fd\transformed\emoji2-1.3.0\res
+com.example.login_project.app-pngs-28 D:\android project\login_Project\app\build\generated\res\pngs\debug
+com.example.login_project.app-resValues-29 D:\android project\login_Project\app\build\generated\res\resValues\debug
+com.example.login_project.app-packageDebugResources-30 D:\android project\login_Project\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.example.login_project.app-packageDebugResources-31 D:\android project\login_Project\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.example.login_project.app-debug-32 D:\android project\login_Project\app\build\intermediates\merged_res\debug\mergeDebugResources
+com.example.login_project.app-debug-33 D:\android project\login_Project\app\src\debug\res
+com.example.login_project.app-main-34 D:\android project\login_Project\app\src\main\res
