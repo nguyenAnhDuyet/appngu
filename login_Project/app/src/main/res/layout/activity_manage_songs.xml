@@ -1,0 +1,24 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:padding="16dp">
+
+<!-- Danh sách bài hát -->
+<ListView
+    android:id="@+id/listViewSongs"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_above="@id/btnAddSong"
+    android:divider="@android:color/darker_gray"
+    android:dividerHeight="1dp" />
+
+<!-- Nút thêm bài hát -->
+<Button
+    android:id="@+id/btnAddSong"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_centerHorizontal="true"
+    android:text="Thêm bài hát mới" />
+
+</RelativeLayout>
