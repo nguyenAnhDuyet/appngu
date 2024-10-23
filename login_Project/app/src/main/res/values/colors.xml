@@ -13,7 +13,8 @@
     <color name="secondaryTextColor">#757575</color> <!-- Màu chữ phụ (xám) -->
     <color name="cardBackgroundColor">#FFFFFF</color> <!-- Màu nền cho CardView (trắng) -->
     <color name="backgroundColor">#F5F5F5</color> <!-- Màu nền tổng quan cho giao diện (xám nhạt) -->
-
+    <color name="inputBackgroundColor">#333333</color> <!-- Dark gray background -->
+    <color name="inputBorderColor">#FFFFFF</color> <!-- White border -->
 
 
     <color name="navigationTextColor">#FFFFFF</color> <!-- White text -->

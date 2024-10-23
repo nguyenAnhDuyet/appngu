@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="CustomHintTextAppearance" parent="TextAppearance.MaterialComponents.Caption">
+        <item name="android:textColor">@color/white</item> <!-- Màu chữ tiêu đề -->
+        <item name="android:textStyle">bold</item> <!-- In đậm tiêu đề -->
+        <item name="android:fontFamily">sans-serif</item> <!-- Kiểu chữ tùy chỉnh -->
+    </style>
+</resources>

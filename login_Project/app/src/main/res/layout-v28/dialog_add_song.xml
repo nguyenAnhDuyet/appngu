@@ -1,0 +1,108 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/background_gradient"
+    android:gravity="center_horizontal">
+
+    <!-- Các trường nhập liệu -->
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Thêm bài hát"
+        android:layout_marginBottom="12dp"
+        app:hintTextAppearance="@style/CustomHintTextAppearance">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/editText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:padding="10dp"
+            android:textAlignment="viewStart"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+<com.google.android.material.textfield.TextInputLayout
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:hint="Tên bài hát"
+app:boxBackgroundMode="outline"
+android:layout_marginBottom="12dp">
+
+<com.google.android.material.textfield.TextInputEditText
+    android:id="@+id/editTextTitle"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="48dp"
+    android:padding="10dp" />
+</com.google.android.material.textfield.TextInputLayout>
+
+<com.google.android.material.textfield.TextInputLayout
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:hint="Ca sĩ"
+app:boxBackgroundMode="outline"
+android:layout_marginBottom="12dp">
+
+<com.google.android.material.textfield.TextInputEditText
+    android:id="@+id/editTextArtist"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="48dp"
+    android:padding="10dp" />
+</com.google.android.material.textfield.TextInputLayout>
+
+    <!-- Các nút bấm -->
+<com.google.android.material.button.MaterialButton
+android:id="@+id/btnChooseFile"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:text="Chọn tệp âm thanh"
+style="@style/Widget.MaterialComponents.Button"
+android:backgroundTint="?attr/colorPrimary"
+android:textColor="@android:color/white"
+android:layout_marginBottom="8dp" />
+
+<com.google.android.material.button.MaterialButton
+android:id="@+id/btnChooseCover"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:text="Chọn ảnh bìa"
+style="@style/Widget.MaterialComponents.Button"
+android:backgroundTint="?attr/colorPrimary"
+android:textColor="@android:color/white"
+android:layout_marginBottom="16dp" />
+
+    <!-- Ảnh bìa -->
+<androidx.cardview.widget.CardView
+android:layout_width="match_parent"
+android:layout_height="200dp"
+android:layout_marginTop="8dp"
+android:visibility="gone"
+app:cardElevation="4dp"
+app:cardCornerRadius="8dp">
+
+<ImageView
+    android:id="@+id/imageViewCover"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scaleType="centerCrop"
+    android:contentDescription="Ảnh bìa" />
+</androidx.cardview.widget.CardView>
+
+    <!-- Nút Thoát -->
+<com.google.android.material.button.MaterialButton
+android:id="@+id/btnExit"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:text="Thoát"
+android:backgroundTint="?attr/colorError"
+android:textColor="@android:color/white"
+android:layout_marginTop="24dp"
+style="@style/Widget.MaterialComponents.Button" />
+    </LinearLayout>

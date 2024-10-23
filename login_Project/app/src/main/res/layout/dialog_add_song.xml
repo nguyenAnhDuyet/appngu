@@ -1,45 +1,117 @@
-<LinearLayout
+<RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:orientation="vertical"
-    android:padding="16dp">
+    android:layout_height="match_parent">
 
-    <EditText
-        android:id="@+id/editTextTitle"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Tên bài hát"
-        android:minHeight="48dp"
-        android:padding="10dp" />
-
-    <EditText
-        android:id="@+id/editTextArtist"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Ca sĩ"
-        android:minHeight="48dp"
-        android:padding="10dp" />
-
-    <Button
-        android:id="@+id/btnChooseFile"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:minHeight="48dp"
-        android:text="Chọn tệp âm thanh" />
-
-    <Button
-        android:id="@+id/btnChooseCover"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:minHeight="48dp"
-        android:text="Chọn ảnh bìa" />
-
+    <!-- Background Image -->
     <ImageView
-        android:id="@+id/imageViewCover"
+        android:id="@+id/bgImage"
         android:layout_width="match_parent"
-        android:layout_height="200dp"
-        android:layout_marginTop="8dp"
+        android:layout_height="match_parent"
+        android:src="@drawable/background_black"
         android:scaleType="centerCrop"
-        android:visibility="gone" />
-</LinearLayout>
+        android:contentDescription="Background Image" />
+
+    <!-- Content Layout with TextView inside LinearLayout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Title "Thêm bài hát" -->
+        <TextView
+            android:id="@+id/titleText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Thêm bài hát"
+            android:textColor="@android:color/holo_blue_bright"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            android:padding="16dp"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Song title input with transparent background -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:hint="Tên bài hát"
+            android:padding="8dp"
+            android:textColor="@android:color/white"
+            android:background="@drawable/input_background">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/editTextTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:minHeight="48dp"
+                android:padding="12dp"
+                android:textColor="@color/backgroundColor"
+                android:textColorHint="@color/white"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- Artist input with transparent background -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:hint="Ca sĩ"
+            android:padding="8dp"
+            android:textColor="@android:color/white"
+            android:background="@drawable/input_background">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/editTextArtist"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="48dp"
+                android:padding="12dp"
+                android:background="@android:color/transparent"
+                android:textColor="@android:color/white"
+                android:textColorHint="@android:color/darker_gray"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- Buttons -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnChooseFile"
+            style="@style/Widget.MaterialComponents.Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:backgroundTint="?attr/colorPrimary"
+            android:text="Chọn tệp âm thanh"
+            android:textColor="@android:color/white"
+            android:textSize="16sp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnChooseCover"
+            style="@style/Widget.MaterialComponents.Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:backgroundTint="?attr/colorPrimary"
+            android:text="Chọn ảnh bìa"
+            android:textColor="@android:color/white"
+            android:textSize="16sp" />
+
+        <!-- Exit Button -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnExit"
+            style="@style/Widget.MaterialComponents.Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:backgroundTint="?attr/colorError"
+            android:text="Thoát"
+            android:textColor="@android:color/white"
+            android:textSize="16sp" />
+    </LinearLayout>
+</RelativeLayout>
