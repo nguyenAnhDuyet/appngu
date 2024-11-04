@@ -37,6 +37,7 @@ public class MusicAdapter extends RecyclerView.Adapter<MusicAdapter.MusicViewHol
     public void onBindViewHolder(@NonNull MusicViewHolder holder, int position) {
         Music music = musicList.get(position);
         holder.bind(music, listener);
+
     }
 
     @Override

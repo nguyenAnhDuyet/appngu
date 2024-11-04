@@ -10,5 +10,10 @@
     <string name="open">Open Menu</string>
     <string name="close">Close Menu</string>
     <string name="play_button_description">Play Button</string>
+    <string name="forward_button">Forward button</string>
+    <string name="rewind_button">Rewind button</string>
+    <string name="song_cover_description">Song Cover Description</string>
+    <string name="song_title">Song Title</string>
+    <string name="song_artist">Song Artist</string>
 
 </resources>
