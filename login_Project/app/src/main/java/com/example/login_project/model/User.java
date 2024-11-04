@@ -7,16 +7,18 @@ public class User {
     private String username;
     private String gender;
     private int role;
+    private String image;
 
     public User() {}
 
-    public User(int id, String email, String password, String username, String gender, int role) {
+    public User(int id, String email, String password, String username, String gender, int role, String image) {
         this.id = id;
         this.email = email;
         this.password = password;
         this.username = username;
         this.gender = gender;
         this.role = role;
+        this.image = image;
     }
 
     public User(int id, String username, String email, String gender) {
@@ -62,4 +64,9 @@ public class User {
     public void setRole(int role) {
         this.role = role;
     }
+
+    public String getImage() { return image;}
+
+    public void setImage(String image) { this.image = image;}
+
 }

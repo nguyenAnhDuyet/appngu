@@ -80,9 +80,24 @@
         android:background="?android:attr/selectableItemBackgroundBorderless"
         android:backgroundTint="@color/buttonColor"
         android:elevation="4dp"
-        android:src="@drawable/play"
+        android:src="@drawable/play2"
         android:contentDescription="@string/play_button_description" />
 
+    <ImageButton
+        android:id="@+id/forwardButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_forward"
+        android:contentDescription="@string/forward_button"
+        android:layout_margin="8dp" />
+
+    <ImageButton
+        android:id="@+id/rewindButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_rewind"
+        android:contentDescription="@string/rewind_button"
+        android:layout_margin="8dp" />
 
 
 </RelativeLayout>

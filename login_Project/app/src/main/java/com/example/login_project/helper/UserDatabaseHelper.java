@@ -16,14 +16,15 @@ import java.util.List;
 public class UserDatabaseHelper extends SQLiteOpenHelper {
 
     private static final String DATABASE_NAME = "user_db";
-    private static final int DATABASE_VERSION = 1;
+    private static final int DATABASE_VERSION = 2;
     private static final String TABLE_USERS = "users";
     private static final String COLUMN_ID = "id";
     private static final String COLUMN_EMAIL = "email";
     private static final String COLUMN_PASSWORD = "password";
     private static final String COLUMN_USERNAME = "username"; // Thêm cột username
     private static final String COLUMN_GENDER = "gender"; // Thêm cột gender
-    private static final String COLUMN_ROLE = "role"; // Thêm cột role
+    private static final String COLUMN_ROLE = "role";
+    private static final String COLUMN_IMAGE = "image";// Thêm cột role
 
     public UserDatabaseHelper(Context context) {
         super(context, DATABASE_NAME, null, DATABASE_VERSION);
@@ -38,6 +39,7 @@ public class UserDatabaseHelper extends SQLiteOpenHelper {
                 + COLUMN_USERNAME + " TEXT,"
                 + COLUMN_GENDER + " TEXT,"
                 + COLUMN_ROLE + " INTEGER DEFAULT 1,"
+                + COLUMN_IMAGE + " TEXT,"
                 + "isBanned INTEGER DEFAULT 0" // Thêm cột isBanned
                 + ")";
         db.execSQL(createTable);
@@ -50,7 +52,7 @@ public class UserDatabaseHelper extends SQLiteOpenHelper {
         }
     }
 
-    public void addUser(String email, String password, String username, String gender) {
+    public void addUser(String email, String password, String username, String gender, String image) {
         SQLiteDatabase db = this.getWritableDatabase();
         ContentValues values = new ContentValues();
         values.put(COLUMN_EMAIL, email);
@@ -58,6 +60,7 @@ public class UserDatabaseHelper extends SQLiteOpenHelper {
         values.put(COLUMN_USERNAME, username);
         values.put(COLUMN_GENDER, gender);
         values.put(COLUMN_ROLE, 1); // Gán giá trị role mặc định là 1
+        values.put(COLUMN_IMAGE, image);
         db.insert(TABLE_USERS, null, values);
         db.close();
     }
@@ -120,6 +123,7 @@ public class UserDatabaseHelper extends SQLiteOpenHelper {
             user.setUsername(cursor.getString(cursor.getColumnIndex(COLUMN_USERNAME)));
             user.setGender(cursor.getString(cursor.getColumnIndex(COLUMN_GENDER)));
             user.setRole(cursor.getInt(cursor.getColumnIndex(COLUMN_ROLE)));
+            user.setImage(cursor.getString(cursor.getColumnIndex(COLUMN_IMAGE)));
             cursor.close();
             return user;
         }
@@ -173,6 +177,7 @@ public class UserDatabaseHelper extends SQLiteOpenHelper {
                 user.setEmail(cursor.getString(cursor.getColumnIndex(COLUMN_EMAIL)));
                 user.setGender(cursor.getString(cursor.getColumnIndex(COLUMN_GENDER)));
                 user.setRole(cursor.getInt(cursor.getColumnIndex(COLUMN_ROLE)));
+                user.setImage(cursor.getString(cursor.getColumnIndex(COLUMN_IMAGE)));
 
                 userList.add(user);
             } while (cursor.moveToNext());

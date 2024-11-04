@@ -40,6 +40,7 @@ public class MusicPlayerActivity extends AppCompatActivity {
     private RelativeLayout mainLayout;
     private String musicUrl;
     private Handler handler = new Handler();
+    private ImageView forwardButton, rewindButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -97,14 +98,14 @@ public class MusicPlayerActivity extends AppCompatActivity {
             if (mediaPlayer != null) {
                 if (mediaPlayer.isPlaying()) {
                     mediaPlayer.pause();
-                    playButton.setImageResource(R.drawable.play); // Đổi icon thành Play
+                    playButton.setImageResource(R.drawable.play2); // Đổi icon thành Play
                 } else {
                     mediaPlayer.start();
-                    playButton.setImageResource(R.drawable.pause); // Đổi icon thành Pause
+                    playButton.setImageResource(R.drawable.pause2); // Đổi icon thành Pause
                 }
             } else {
                 playMusic(musicUrl);
-                playButton.setImageResource(R.drawable.pause); // Đổi icon thành Pause
+                playButton.setImageResource(R.drawable.pause2); // Đổi icon thành Pause
             }
         });
 
@@ -121,6 +122,25 @@ public class MusicPlayerActivity extends AppCompatActivity {
 
             @Override
             public void onStopTrackingTouch(SeekBar seekBar) { }
+        });
+
+        // Initialize new buttons
+        forwardButton = findViewById(R.id.forwardButton);
+        rewindButton = findViewById(R.id.rewindButton);
+
+        // Set click listeners for the forward and rewind buttons
+        forwardButton.setOnClickListener(v -> {
+            if (mediaPlayer != null) {
+                int newPosition = mediaPlayer.getCurrentPosition() + 30000; // Forward by 30 seconds
+                mediaPlayer.seekTo(Math.min(newPosition, mediaPlayer.getDuration()));
+            }
+        });
+
+        rewindButton.setOnClickListener(v -> {
+            if (mediaPlayer != null) {
+                int newPosition = mediaPlayer.getCurrentPosition() - 30000; // Rewind by 30 seconds
+                mediaPlayer.seekTo(Math.max(newPosition, 0));
+            }
         });
     }
 
@@ -166,7 +186,7 @@ public class MusicPlayerActivity extends AppCompatActivity {
                         mediaPlayer.start();
                         seekBar.setMax(mediaPlayer.getDuration());
                         totalTimeTextView.setText(formatTime(mediaPlayer.getDuration()));
-                        playButton.setImageResource(R.drawable.pause);
+                        playButton.setImageResource(R.drawable.pause2);
                         Toast.makeText(this, "Playing music", Toast.LENGTH_SHORT).show();
 
                         updateSeekBar();

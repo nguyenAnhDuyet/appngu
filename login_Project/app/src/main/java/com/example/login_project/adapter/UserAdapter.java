@@ -9,6 +9,8 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
+
+import com.bumptech.glide.Glide;
 import com.example.login_project.R;
 import com.example.login_project.activity.UserDetailActivity;
 import com.example.login_project.model.User;
@@ -39,12 +41,26 @@ public class UserAdapter extends RecyclerView.Adapter<UserAdapter.UserViewHolder
         User user = userList.get(position);
         holder.textViewName.setText(user.getUsername()); // Hiển thị tên người dùng
 
+        // Kiểm tra nếu avatarUrl không null hoặc rỗng
+        if (user.getImage() != null && !user.getImage().isEmpty()) {
+            // Dùng Glide để tải ảnh
+            Glide.with(context)
+                    .load(user.getImage()) // Đường dẫn URL của ảnh
+                    .placeholder(R.drawable.ic_user_avatar) // Ảnh mặc định
+                    .error(R.drawable.ic_user_avatar) // Ảnh lỗi
+                    .into(holder.userIcon); // ImageView để hiển thị ảnh
+        } else {
+            // Nếu không có URL, dùng ảnh mặc định
+            holder.userIcon.setImageResource(R.drawable.ic_user_avatar);
+        }
+
         // Set sự kiện khi nhấn vào item để mở UserDetailActivity
         holder.itemView.setOnClickListener(view -> {
             Intent intent = new Intent(context, UserDetailActivity.class);
             intent.putExtra("userId", user.getId()); // Truyền userId qua Intent
             context.startActivity(intent);
         });
+
     }
 
     // Trả về số lượng item trong danh sách User
